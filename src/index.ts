@@ -24,7 +24,7 @@ import {
 import axios from "axios";
 
 // Configuration
-const DANDI_API_BASE = process.env.DANDI_API_BASE || "http://localhost:8000";
+const DANDI_API_BASE = process.env.DANDI_API_BASE || "https://dandi-sql-production.up.railway.app/";
 const API_TIMEOUT = 30000; // 30 seconds
 
 interface DandiSearchParams {
